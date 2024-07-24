@@ -17,7 +17,7 @@ const TotalRewardEarned = (props: Props) => {
 
   if (loading) {
     return (
-      <InfoCard
+      <InfoCard 
         loading={true}
         icon={<Award className="h-4 w-4 text-muted-foreground" />}
         title="Total Rewards earned"
